@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 # Coding: UTF-8
 
-require 'cgi'
-
 configure :development do
   use BetterErrors::Middleware
   BetterErrors.application_root = settings.root
