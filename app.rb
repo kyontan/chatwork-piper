@@ -76,10 +76,6 @@ helpers do
   end
 end
 
-get "/?" do
-  haml :index
-end
-
 post "/slack/outgoing" do
   protected!
 
