@@ -28,7 +28,7 @@ Pipes messages between Slack and Chatwork
 4. How to use?
   1. Add Incoming Webhook to Slack (and edit `app.rb`)
   2. Add Outgoing Webhook to Slack to `http://USER:PASSWORD@HOST_IP/slack/outgoing`
-  3. curl `http://USER:PASSWORD@HOST_IP/chatwork/update` frequently
+  3. curl `http://USER:PASSWORD@HOST_IP/chatwork/update?chatwork_room_id=CHATWORK_ROOM_ID&slack_channel=SLACK_CHANNEL` frequently
 
 5. Lisence
 MIT
